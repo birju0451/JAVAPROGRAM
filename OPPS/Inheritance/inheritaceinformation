@@ -1,0 +1,35 @@
+Inheritance is one of the core concepts of object-oriented programming (OOP). It allows a new class (child or subclass) to inherit properties and methods from an existing class (parent or superclass). This helps in code reusability and the establishment of a hierarchical relationship between classes.
+------------------------------------
+Key Concepts of Inheritance:
+Base Class (Superclass or Parent Class): The class whose properties and methods are inherited by another class.
+Derived Class (Subclass or Child Class): The class that inherits properties and methods from the base class.
+-------------------------------------
+
+extends Keyword: In Java, inheritance is implemented using the extends keyword.
+Single Inheritance: A class inherits from one parent class.
+Multilevel Inheritance: A class is derived from another derived class (creating a chain).
+Hierarchical Inheritance: Multiple classes inherit from a single parent class.
+-----------------------------------------
+
+Method Overriding: A subclass can provide its own implementation for a method already defined in the parent class.
+-----------------------------------------
+Constructor Chaining: When a subclass is instantiated, the constructor of the parent class is invoked first.
+Types of Inheritance:
+Single Inheritance: One class inherits from a single parent class.
+Multilevel Inheritance: A class is derived from another class, which is also derived from another class.
+Hierarchical Inheritance: Multiple classes inherit from a single parent class.
+Multiple Inheritance (Through Interfaces): Java does n’t support multiple inheritance directly (i.e., a class cannot inherit from multiple classes), but it can be achieved through interfaces.
+
+-----------------------------------------------------------
+Constructor Chaining: In inheritance, when a subclass object is created, the constructor of the parent class is invoked first. This is known as constructor chaining.
+
+Private Members: Private members of the superclass are not directly accessible in the subclass, though they can be accessed via public or protected getters and setters.
+
+Advantages of Inheritance:
+Code Reusability: You can reuse the code from the parent class in the child class.
+Code Organization: It helps in organizing code logically and in a hierarchical manner.
+Polymorphism: Inheritance allows polymorphism where methods behave differently based on the object type at runtime.
+Disadvantages of Inheritance:
+Tight Coupling: The child class becomes tightly coupled with the parent class. Changes in the parent class can affect the child class.
+Increased Complexity: Deep levels of inheritance can make code more difficult to understand and maintain.
+Cannot Inherit Multiple Classes: Java restricts a class from inheriting from more than one class.
