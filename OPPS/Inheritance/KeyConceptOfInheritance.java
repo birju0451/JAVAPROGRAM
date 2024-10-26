@@ -1,7 +1,4 @@
 package OPPS.Inheritance;
-
-import javax.crypto.spec.PSource;
-
 //method overloading :
 /*
 >A subclass can override a method of the superclass to provide  a specific implementation.

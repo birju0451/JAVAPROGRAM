@@ -19,6 +19,7 @@ class Dog6 extends Animal6 {
 
 public class superclass {
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Dog6 dog = new Dog6(); // Animal constructor will be called first
     }
 }
