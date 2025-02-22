@@ -4,7 +4,7 @@ public class help{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int operator,n1,n2;
-        System.out.println("1.add\n 2.subtract\n 3.multiplication\n division");
+        System.out.println(" 1.add\n 2.subtract\n 3.multiplication\n 4.division");
         System.out.println("chose the operator");
         operator=sc.nextInt();
         System.out.println("enter the first number:");
@@ -29,7 +29,7 @@ public class help{
                 break;
 
             default:
-            System.out.println("Entered operator is invalid");
+                System.out.println("Entered operator is invalid");
                 break;
         }
         System.out.println("the Result is:"+ result);
